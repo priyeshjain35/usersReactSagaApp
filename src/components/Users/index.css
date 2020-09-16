@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 33%;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.icon-container {
+    margin: 20px;
+    text-align-last: right;
+}
+
+i {
+    font-size:50px;
+    margin: 10px;
+    color: #ffd400;
+}
+
+i:hover {
+    font-size: 55px;
+    color: #ff4700;
+}
+
+.card {
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}

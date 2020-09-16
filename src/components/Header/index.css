@@ -1,0 +1,16 @@
+.header {
+    background: #ffd400;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header p {
+    margin-top: 0px;
+    color: #308eef;
+    text-decoration: underline;
+}
+
+.header button {
+    width: 100%;
+    align-self: flex-end;
+}

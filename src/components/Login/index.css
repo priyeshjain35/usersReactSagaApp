@@ -1,0 +1,42 @@
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    padding: 5px;
+}
+
+label {
+    font-size: 30px;
+    color: #308eef;
+    align-self: center;
+}
+
+button {
+    font-size: 30px;
+    color: #308eef;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    align-self: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: underline;
+}
